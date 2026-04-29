@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-glass-border;
+  }
+
+  body {
+    @apply bg-gradient-to-br from-forest-deep via-forest-primary to-[#3F6B30] text-white antialiased;
+  }
+}
+
+.glass-surface {
+  background: rgba(255, 255, 255, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(20px) saturate(180%);
+}

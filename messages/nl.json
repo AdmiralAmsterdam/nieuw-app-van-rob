@@ -1,0 +1,22 @@
+{
+  "common": {
+    "language": "Taal",
+    "addToOrder": "Toevoegen aan bestelling",
+    "cart": "Winkelwagen",
+    "priceOnRequest": "Prijs op aanvraag"
+  },
+  "login": {
+    "title": "Inloggen",
+    "subtitle": "Welkom terug bij VAN EGMOND Potgrond",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "submit": "Inloggen / Sign in",
+    "forgot": "Wachtwoord vergeten?"
+  },
+  "dashboard": {
+    "welcome": "Welkom",
+    "products": "Producten",
+    "minimum": "Minimale afname",
+    "unit": "Eenheid"
+  }
+}

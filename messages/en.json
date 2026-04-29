@@ -1,0 +1,22 @@
+{
+  "common": {
+    "language": "Language",
+    "addToOrder": "Add to order",
+    "cart": "Cart",
+    "priceOnRequest": "Price on request"
+  },
+  "login": {
+    "title": "Sign in",
+    "subtitle": "Welcome back to VAN EGMOND Potgrond",
+    "email": "Email address",
+    "password": "Password",
+    "submit": "Inloggen / Sign in",
+    "forgot": "Forgot password?"
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "products": "Products",
+    "minimum": "Minimum order",
+    "unit": "Unit"
+  }
+}
