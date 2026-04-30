@@ -18,5 +18,25 @@
     "products": "Producten",
     "minimum": "Minimale afname",
     "unit": "Eenheid"
+  },
+  "signup": {
+    "title": "Registreren",
+    "subtitle": "Maak een account aan voor VAN EGMOND Potgrond",
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "confirmPassword": "Bevestig wachtwoord",
+    "submit": "Registreren",
+    "hasAccount": "Heb je al een account?",
+    "login": "Log dan in"
+  },
+  "admin": {
+    "users": "Gebruikers",
+    "orders": "Bestellingen",
+    "email": "E-mail",
+    "role": "Rol",
+    "created": "Aangemaakt op",
+    "updated": "Laatst bijgewerkt",
+    "admin": "Admin",
+    "user": "Gebruiker"
   }
 }

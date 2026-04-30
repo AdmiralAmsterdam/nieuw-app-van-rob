@@ -18,5 +18,25 @@
     "products": "Products",
     "minimum": "Minimum order",
     "unit": "Unit"
+  },
+  "signup": {
+    "title": "Sign up",
+    "subtitle": "Create an account for VAN EGMOND Potgrond",
+    "email": "Email address",
+    "password": "Password",
+    "confirmPassword": "Confirm password",
+    "submit": "Sign up",
+    "hasAccount": "Already have an account?",
+    "login": "Sign in"
+  },
+  "admin": {
+    "users": "Users",
+    "orders": "Orders",
+    "email": "Email",
+    "role": "Role",
+    "created": "Created at",
+    "updated": "Updated at",
+    "admin": "Admin",
+    "user": "User"
   }
 }

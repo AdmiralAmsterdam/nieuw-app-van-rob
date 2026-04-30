@@ -1,6 +1,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { AdminOrders } from "@/components/admin-orders";
+import { AdminUsers } from "@/components/admin-users";
 
 export default async function AdminPage() {
   const supabase = await createClient();
@@ -21,9 +22,16 @@ export default async function AdminPage() {
   }
 
   return (
-    <main className="mx-auto min-h-screen w-full max-w-5xl space-y-4 p-6">
-      <h1 className="text-2xl font-semibold text-white">Admin bestellingen</h1>
-      <AdminOrders />
+    <main className="mx-auto min-h-screen w-full max-w-5xl space-y-8 p-6">
+      <section>
+        <h1 className="text-2xl font-semibold text-white mb-4">Gebruikersbeheer</h1>
+        <AdminUsers />
+      </section>
+
+      <section>
+        <h1 className="text-2xl font-semibold text-white mb-4">Bestellingen</h1>
+        <AdminOrders />
+      </section>
     </main>
   );
 }
